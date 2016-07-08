@@ -1,4 +1,7 @@
 ### golang_setup
+Possible issues:  
+> [Failed to compile in Ubuntu 16.04](https://github.com/moovweb/gvm/issues/197)  
+
 ```
 mkdir golang
 mkdir golang/3rdpkg
