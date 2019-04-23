@@ -14,7 +14,7 @@ tar -xvf go1.6.tar.gz
 
 echo "export golang=${HOME}/golang" >> ~/.bashrc
 echo "export GOROOT=${golang}/go" >> ~/.bashrc
-echo "export GOROOT_BOOTSTRAP=${GOROOT}/go-bootstrap" >> ~/.bashrc
+echo "export GOROOT_BOOTSTRAP=${golang}/go-bootstrap" >> ~/.bashrc
 echo "export GOPATH=${golang}/3rdpkg:${GOROOT}:${golang}/own" >> ~/.bashrc
 echo "export PATH=${GOROOT}/bin:${PATH}" >> ~/.bashrc
 
